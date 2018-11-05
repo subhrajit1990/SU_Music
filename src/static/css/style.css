@@ -219,7 +219,7 @@ body {
     border-radius: 10px;
 }
 
-.home_right_box .menus:nth-child(3),.home_right_box .menus:last-child  {
+.home_right_box .menus:nth-child(5),.home_right_box .menus:last-child  {
     border-bottom: 0px;
 }
 
