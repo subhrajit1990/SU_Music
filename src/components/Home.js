@@ -26,6 +26,12 @@ export default class Home extends React.Component{
 									<NavLink to="/Blog">Blog</NavLink>
 								</div>
 								<div className="menus">
+									<NavLink to="/Events">Events</NavLink>
+								</div>
+								<div className="menus">
+									<NavLink to="/Music">Music</NavLink>
+								</div>
+								<div className="menus">
 									<NavLink to="/About">About Us</NavLink>
 								</div>
 								<div className="menus">
