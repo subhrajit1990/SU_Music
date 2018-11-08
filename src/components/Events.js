@@ -18,7 +18,6 @@ constructor(props) {
 	eventRegistration(){
 		console.log("Yes Registration");
 		 this.setState( prevState => ({
-		 	
         registration: !prevState.registration
     }));
 	}
