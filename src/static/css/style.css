@@ -191,7 +191,8 @@ body {
     }
   }
   .routerClass {
-    background-color: #544F4D;
+    background-image: url('http://localhost:8080/img/music.jpg');
+    /*background-color: #544F4D; */
    /* min-height: 340px; */
   }
 
