@@ -5,7 +5,8 @@ import {Switch,Route,HashRouter,NavLink} from 'react-router-dom';
 import About from './About';
 import Home from './Home';
 import Contact from './Contact';
-import BlogContainer from './BlogContainer';
+import Artists from './Artists';
+import Events from './Events';
 import {NotFoundPage, NoDataFoundPage}  from './NotFoundPage';
 export const routes = (
   <Switch>
@@ -13,7 +14,8 @@ export const routes = (
     <Route path="/Contact" component={Contact}/>
     <Route path="/About" component={About}/>
     <Route path="/Home" component={Home}/>
-    <Route path="/Blog" component={BlogContainer}/>
+    <Route path="/Artists" component={Artists}/>
+    <Route path="/Events" component={Events}/>
     <Route component={NotFoundPage}/>
   </Switch>
 );

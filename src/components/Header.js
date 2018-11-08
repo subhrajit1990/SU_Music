@@ -2,11 +2,6 @@
 
 import React from 'react';
 import {routes} from './constant';
-import About from './About';
-import Home from './Home';
-import Contact from './Contact';
-import BlogContainer from './BlogContainer';
-
 
 
 export default class Header extends React.Component{

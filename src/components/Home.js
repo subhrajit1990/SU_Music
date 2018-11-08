@@ -23,7 +23,7 @@ export default class Home extends React.Component{
 									<NavLink to="/Home">Home</NavLink>
 								</div>
 								<div className="menus">
-									<NavLink to="/Blog">Blog</NavLink>
+									<NavLink to="/Artists">Artists</NavLink>
 								</div>
 								<div className="menus">
 									<NavLink to="/Events">Events</NavLink>
