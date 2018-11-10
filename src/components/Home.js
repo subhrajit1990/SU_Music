@@ -6,20 +6,7 @@ import {Route,HashRouter,NavLink,BrowserRouter} from 'react-router-dom';
 
 export default class Home extends React.Component{
 
-	constructor(props){
-		super(props);
-this.artistResponse = this.artistResponse.bind(this);
-	}
-
-	componentDidMount(){
-		requestService("/staticData/artist.json")
-		.then(response => response.json())
-		.then(this.artistResponse);
-	}
-
-	artistResponse(response){
-		console.log("Artist "+JSON.stringify(response));
-	}
+	
 
 	render(){
 		return(
@@ -40,6 +27,7 @@ this.artistResponse = this.artistResponse.bind(this);
 									<NavLink to="/Home">Home</NavLink>
 								</div>
 								<div className="menus">
+
 									<NavLink to="/Artists">Artists</NavLink>
 								</div>
 								<div className="menus">
